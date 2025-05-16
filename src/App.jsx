@@ -5,11 +5,23 @@ import { useState } from 'react';
 function App() {
   const fruits = ["Apple", "Pear", "Orange"];
   return (
+    <>
     <ul>
       {fruits.map((fruit, index) => (
         <li key={index}>{fruit}</li>
       ))}
     </ul>
+    <ul>
+      {fruits.map((fruit, index) => (
+        <li key={index}>{fruit}</li>
+      ))}
+    </ul>
+    <ul>
+      {fruits.map((fruit, index) => (
+        <li key={index}>{fruit}</li>
+      ))}
+    </ul>
+    </>
   );
 }
 
